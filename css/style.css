@@ -35,10 +35,51 @@ nav.nav{
     width: 50rem;
     border: solid black;
     height: 20rem;
-    background-color: #ffc0cb;
+    background-color: #ffc0cb; 
 
 }
 
+.top-flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35rem;
+    
+}
+
+.items-flex{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: solid black;
+    height: 30rem;
+}
+.big-box{
+    width: 60rem;
+    background-color: lightblue;
+}
+
+.small-box{
+    width: 20rem;
+    background-color:  #ffc0cb;
+}
+
+.middle-flex{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    background-color:lightgrey;
+    width: 100%;
+    height: 35rem;
+
+}
+
+.low-flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35rem;
+
+}
 
 
 
