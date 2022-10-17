@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#conteiner-nav{
+    background-color: #add8e6;
+    height: 4.5rem;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+nav.nav{
+    border: solid black;
+    height: 3rem;
+    margin: 0rem 13rem 1rem 13rem;
+    background-color: #daa520;
+}
+
+.header-section{
+    background-color: blue;
+    width: 100%;
+    height: 20rem;
+}
+.header-div{
+    border: solid black;
+    height: 19rem;
+    margin: 0rem 25rem 4rem 25rem;
+    background-color: #ffc0cb;
+
+}
