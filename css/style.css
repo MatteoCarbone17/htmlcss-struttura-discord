@@ -90,12 +90,54 @@ nav.nav{
 }
 
 .green-box{
-    width: 60rem;
+    width: 80rem;
     height: 40rem;
     background-color: green;
     margin-top: 2.5rem;
+    border: solid black;
 }
 
+.footer-conteiner{
+    background-color: #242d30;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
+}
+.footer-items{
+    height: 25rem;
+    width: 15rem;
+    background-color: lightblue;
+    border: solid black;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
 
+}
 
+.box{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    height: 25rem;
+    width: 20rem;
+    background-color: palevioletred;
+    border: solid black;
+}
+
+#low-conteiner{
+    justify-content: center;
+    display: flex;
+    background-color: #242d30;
+    height: 5rem;
+    width: 100%;
+    align-items: flex-end;
+
+}
+
+.low-nav{
+    border: solid black;
+    height: 3rem;
+    width: 80rem;
+    background-color: aqua
+    
+
+}
