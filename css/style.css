@@ -12,13 +12,56 @@
     width: 100%;
 }
 
-nav.nav{
-    border: solid black;
+.nav{
+    border: dashed  black;
     height: 3rem;
     width: 80rem;
     background-color: #daa520;
     margin-top: 1rem;
+    display: flex;
+    
 }
+
+.logo,
+.button-flex,
+.link{
+    flex-basis: 33%;
+
+}
+.ul-link{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin:.5rem 0 .5rem 0 ;
+}
+ul>li{
+    display: inline;
+}
+
+.logo{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.button-login{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 1rem;
+    border-color: white;
+    background-color: white;
+    color: black;
+
+}
+
+
 
 .header-section{
     display: flex;
@@ -33,7 +76,7 @@ nav.nav{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     width: 50rem;
-    border: solid black;
+    border: dashed  black;
     height: 20rem;
     background-color: #ffc0cb; 
 
@@ -50,7 +93,7 @@ nav.nav{
 .items-flex{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border: solid black;
+    border: dashed  black;
     height: 30rem;
 }
 .big-box{
@@ -94,7 +137,7 @@ nav.nav{
     height: 40rem;
     background-color: green;
     margin-top: 2.5rem;
-    border: solid black;
+    border: dashed black;
 }
 
 .footer-conteiner{
@@ -108,7 +151,7 @@ nav.nav{
     height: 25rem;
     width: 15rem;
     background-color: lightblue;
-    border: solid black;
+    border: dashed  black;
     margin-top: 1.5rem;
     margin-bottom: .5rem;
 
@@ -120,7 +163,7 @@ nav.nav{
     height: 25rem;
     width: 20rem;
     background-color: palevioletred;
-    border: solid black;
+    border: dashed black;
 }
 
 #low-conteiner{
@@ -134,7 +177,7 @@ nav.nav{
 }
 
 .low-nav{
-    border: solid black;
+    border: dashed black;
     height: 3rem;
     width: 80rem;
     background-color: aqua
